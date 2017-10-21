@@ -11,7 +11,7 @@ while (str.length <= 7){
 // FizzBuzz
 console.error("task 2");
 var num = 1;
-for ( ; num < 100; num++ ) {
+for ( ; num <= 100; num++ ) {
     if ( num % 5 === 0 && num % 3 === 0 ){
         console.log( num, " = FizzBuzz" );
     } else {
